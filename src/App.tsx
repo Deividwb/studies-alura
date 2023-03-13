@@ -1,12 +1,10 @@
 import React from "react";
-import Botao from "./components/Botao";
+import Formulario from "./components/Formulario";
 
-//teste
 function App() {
   return (
-    <div className="App" onClick={() => alert("deu certo")}>
-      <Botao />
-      <h1>OIIII</h1>
+    <div className="App">
+      <Formulario />
     </div>
   );
 }

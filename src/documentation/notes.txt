@@ -4,3 +4,6 @@ Existe uma possibilidade no html de criar web-components, que nos permite criar 
 
 Para o React diferenciar um componente de um web-component, ele pede para que criemos um componente com a primeira letra maiúscula, assim ele consegue diferenciar por exemplo que <meuBotao /> é um web-component e <MeuBotao /> é um componente!
 Método map: aceita dois parametros, o proprio iyem e um index, quando usamos parenteses()significa que queremos retornar aquilo que esta dentro dele, a chaves{} retornariamos apenas um escopo.
+Transformar o CSS em CSS module é uma maneira de estilização e para que não aja sobreposição de classes baixamos um pacote (https://www.npmjs.com/package/typescript-plugin-css-modules)
+Transforme o arquivo src/components/Botao/style.scss em CSS Modules trocando o nome do arquivo .scss para o nome do componente, instalando o plugin typescript-plugin-css-modules como dependência de desenvolvimento e configurando o plugin dentro do arquivo tsconfig.json e importando a classe dentro do arquivo de forma correta dentro de src/components/Botao/index.tsx.
+Maneiras de estilização : CSS inline; Sass; CSS Modules

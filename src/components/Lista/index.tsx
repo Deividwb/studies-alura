@@ -13,7 +13,7 @@ function Lista() {
     },
     {
       tarefa: "Typescript",
-      tempo: "03:00:01",
+      tempo: "03:00:00",
     },
   ];
   return (

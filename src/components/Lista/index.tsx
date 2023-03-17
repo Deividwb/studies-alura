@@ -15,6 +15,10 @@ function Lista() {
       tarefa: "Typescript",
       tempo: "03:00:00",
     },
+    {
+      tarefa: "Java",
+      tempo: "03:00:00",
+    },
   ];
   return (
     <aside className={style.listaTarefas}>

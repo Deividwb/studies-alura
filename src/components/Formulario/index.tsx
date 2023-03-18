@@ -28,7 +28,7 @@ class Formulario extends React.Component {
             required
           />
         </div>
-        <Botao texto="DEivid" />
+        <Botao />
       </form>
     );
   }

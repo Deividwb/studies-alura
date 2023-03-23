@@ -27,7 +27,7 @@ function Lista() {
       <ul>
         {tarefas.map((item, index) => (
           // <Item tarefa={item.tarefa} tempo={item.tempo} />//primeiro jeito
-          <Item {...item} />
+          <Item key={index} {...item} />
         ))}
       </ul>
     </aside>

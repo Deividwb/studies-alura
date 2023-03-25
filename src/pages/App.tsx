@@ -8,8 +8,8 @@ function App() {
   return (
     <div className={style.AppStyle}>
       <Formulario />
-      <Lista />
       <Cronometro />
+      <Lista />
     </div>
   );
 }

@@ -26,7 +26,7 @@ function Lista() {
     <aside className={style.listaTarefas}>
       <h2
         onClick={() => {
-          setTarefas([...tarefas, { tarefa: "Deivid", tempo: "02:00:00" }]);
+          setTarefas([...tarefas, { tarefa: "java", tempo: "02:00:00" }]);
         }}
       >
         {" "}

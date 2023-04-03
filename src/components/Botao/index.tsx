@@ -1,10 +1,18 @@
 import React from "react";
 import style from "./Botao.module.scss";
 
-class Botao extends React.Component<{ texto: string }> {
+class Button extends React.Component<{
+  children?: React.ReactNode;
+  type?: "button" | "submit" | "reset" | undefined;
+}> {
   render() {
-    return <button className={style.botao}>{this.props.texto}</button>;
+    const { type = "button" } = this.props;
+    return (
+      <button type={type} className={style.button}>
+        {this.props.children}
+      </button>
+    );
   }
 }
 
-export default Botao;
+export default Button;

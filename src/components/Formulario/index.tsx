@@ -20,7 +20,7 @@ class Formulario extends React.Component<{
         ...this.state,
         selecionado: false,
         completado: false,
-        id: "uuidv4()",
+        id: uuidv4(),
       },
     ]);
     this.setState({
